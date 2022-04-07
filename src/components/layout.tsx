@@ -1,3 +1,4 @@
+import Footer from "./footer";
 import Header from "./header";
 
 type Props = {
@@ -10,6 +11,7 @@ export default function Layout({ children }: Props) {
       <div className="container mx-auto py-12 ">
         <Header />
         {children}
+        <Footer />
       </div>
     </section>
   );
