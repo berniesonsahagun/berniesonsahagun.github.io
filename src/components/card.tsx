@@ -7,12 +7,12 @@ type Props = {
 
 export default function Card({ title, description, link, img }: Props) {
   return (
-    <article className="w-full mt-8 py-16 px-12 bg-neutral-100">
+    <article className="w-full mt-8 p-8 md:py-16 md:px-12 bg-neutral-100">
       <div className="grid grid-cols-5 content-center">
-        <div className="col-span-2">
+        <div className="md:col-span-2 col-span-5 mb-8 md:mb-0">
           <img src={img} alt={title} />
         </div>
-        <div className="col-span-3 pl-12 flex flex-col justify-center">
+        <div className="md:col-span-3 col-span-5 md:pl-12 flex flex-col justify-center">
           <h3 className="font-bold text-slate-900 text-3xl mb-2">
             <a href={link} target="_blank" rel="noreferrer">
               {title}

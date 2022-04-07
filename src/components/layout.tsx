@@ -8,7 +8,7 @@ type Props = {
 export default function Layout({ children }: Props) {
   return (
     <section className="bg-neutral-50 min-h-screen">
-      <div className="container mx-auto py-12 ">
+      <div className="container px-6 md:mx-auto py-12">
         <Header />
         {children}
         <Footer />
