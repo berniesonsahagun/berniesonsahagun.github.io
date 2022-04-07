@@ -53,7 +53,7 @@ export default function Home() {
           <h2 className="text-slate-900 font-bold text-3xl">
             Something about my self
           </h2>
-          <div className="mt-8 ml-8">
+          <div className="mt-8 md:ml-8">
             <div className="flex gap-6 align-center mb-8">
               <div className="w-36">
                 <h4 className="text-slate-900 font-bold text-xl">
